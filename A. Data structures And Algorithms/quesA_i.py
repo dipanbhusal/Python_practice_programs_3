@@ -1,3 +1,4 @@
+#i. Tower of hanoi
 def tower_of_hanoi(n, start_node, target_node, aux_node):
     if n == 1:
         print(f'Move disk 1 from {start_node} to {target_node}')
